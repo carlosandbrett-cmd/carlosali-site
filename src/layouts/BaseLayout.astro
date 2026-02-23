@@ -1,0 +1,67 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  article?: boolean;
+}
+
+const { title, description = 'Quote-to-Cash and CPQ insights from a Salesforce implementation consultant.', article = false } = Astro.props;
+const currentPath = Astro.url.pathname;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title} | Carlos Ali</title>
+  <meta name="description" content={description} />
+
+  <!-- Open Graph for LinkedIn shares -->
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:type" content={article ? 'article' : 'website'} />
+  <meta property="og:site_name" content="Carlos Ali" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+</head>
+<body>
+  <nav>
+    <a href="/" class="nav-brand">Carlos Ali</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" id="nav-toggle">&#9776;</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="/" class:list={[{ active: currentPath === '/' }]}>Home</a></li>
+      <li><a href="/articles" class:list={[{ active: currentPath.startsWith('/articles') }]}>Articles</a></li>
+      <li><a href="/about" class:list={[{ active: currentPath === '/about/' }]}>About</a></li>
+      <li><a href="/connect" class:list={[{ active: currentPath === '/connect/' }]}>Connect</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <slot />
+  </main>
+
+  <footer>
+    <p>&copy; {new Date().getFullYear()} Carlos Ali. All rights reserved.</p>
+    <ul class="footer-links">
+      <li><a href="https://linkedin.com/in/carlosali" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="/articles">Articles</a></li>
+      <li><a href="/connect">Connect</a></li>
+    </ul>
+  </footer>
+
+  <script>
+    document.getElementById('nav-toggle')?.addEventListener('click', () => {
+      document.getElementById('nav-links')?.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>

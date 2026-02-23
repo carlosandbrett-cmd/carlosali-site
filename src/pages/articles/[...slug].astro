@@ -1,0 +1,51 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+  return articles.map((article) => ({
+    params: { slug: article.id },
+    props: { article },
+  }));
+}
+
+interface Props {
+  article: CollectionEntry<'articles'>;
+}
+
+const { article } = Astro.props;
+const { Content } = await article.render();
+
+function formatDate(date: Date): string {
+  return date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+}
+---
+
+<BaseLayout title={article.data.title} description={article.data.description} article={true}>
+  <div class="container">
+    <article>
+      <div class="article-header">
+        <div class="article-meta">
+          <span class="article-date">{formatDate(article.data.date)}</span>
+          {article.data.tags.map((tag) => (
+            <span class="article-tag">{tag}</span>
+          ))}
+        </div>
+        <h1>{article.data.title}</h1>
+        <p style="font-size: var(--text-lg); color: var(--slate); margin-bottom: 0;">{article.data.description}</p>
+      </div>
+
+      <div class="article-content">
+        <Content />
+      </div>
+    </article>
+
+    <div class="cta-section">
+      <h3>Found this useful?</h3>
+      <p>I write regularly about CPQ, Revenue Cloud, and Quote-to-Cash strategy. Let's connect.</p>
+      <a href="https://linkedin.com/in/carlosali" target="_blank" rel="noopener" class="cta-button">Follow on LinkedIn</a>
+    </div>
+  </div>
+</BaseLayout>

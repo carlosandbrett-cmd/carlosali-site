@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const articles = (await getCollection('articles'))
+  .filter(a => !a.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+function formatDate(date: Date): string {
+  return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+}
+---
+
+<BaseLayout title="Articles" description="Articles on Quote-to-Cash, CPQ, and revenue operations from Carlos Ali.">
+  <div class="container">
+    <section class="articles-section" style="padding-top: 3rem;">
+      <h1>Articles</h1>
+      <p style="margin-bottom: 2.5rem; font-size: var(--text-lg); max-width: 560px;">Practitioner perspectives on Salesforce CPQ, Revenue Cloud, and the end-to-end Quote-to-Cash lifecycle.</p>
+
+      {articles.map((article) => (
+        <a href={`/articles/${article.id}`} class="article-card" style="display: block; text-decoration: none;">
+          <div class="article-meta">
+            <span class="article-date">{formatDate(article.data.date)}</span>
+            {article.data.tags[0] && <span class="article-tag">{article.data.tags[0]}</span>}
+          </div>
+          <h3>{article.data.title}</h3>
+          <p>{article.data.description}</p>
+        </a>
+      ))}
+
+      {articles.length === 0 && (
+        <p style="color: var(--gray-500); font-style: italic;">New articles coming soon.</p>
+      )}
+    </section>
+  </div>
+</BaseLayout>
