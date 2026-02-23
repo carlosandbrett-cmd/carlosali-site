@@ -7,7 +7,7 @@ tags: ["Salesforce CPQ", "Revenue Cloud"]
 
 If you've been in the Salesforce Quote-to-Cash space for any length of time, you've probably heard the news: Salesforce is sunsetting its legacy CPQ product in favor of Revenue Cloud. And if you're running a production CPQ instance right now, you're probably wondering what this actually means for your team.
 
-I've spent the last several months helping enterprise clients navigate this transition, and I want to share what I've learned — because the vendor messaging doesn't always match the ground truth.
+I've spent the last two years helping enterprise clients navigate this transition, and I want to share what I've learned — because the vendor messaging doesn't always match the ground truth.
 
 ## What's Actually Happening
 
@@ -21,7 +21,7 @@ This isn't a sudden shutdown. It's a strategic redirect. But the implications ar
 
 Revenue Cloud isn't a 1:1 replacement for legacy CPQ. Some features work differently, some are still catching up, and some are genuinely improved. Before you plan anything, audit your current configuration and identify which features you rely on that may not have direct equivalents yet.
 
-The areas I see causing the most friction in migrations: advanced approval chains, highly customized guided selling flows, and complex discount schedules. If your implementation leans heavily on any of these, your migration timeline is longer than you think.
+The areas I see causing the most friction in migrations: complex approval chains, highly customized guided selling flows, and complex discount schedules. If your implementation leans heavily on any of these, your migration timeline is longer than you think.
 
 ### 2. What's our contract renewal timeline?
 
