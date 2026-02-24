@@ -23,7 +23,7 @@ function formatDate(date: Date): string {
 }
 ---
 
-<BaseLayout title={article.data.title} description={article.data.description} article={true}>
+<BaseLayout title={article.data.title} description={article.data.description} article={true} ogImage={(article.data as any).ogImage}>
   <div class="container">
     <article>
       <div class="article-header">
