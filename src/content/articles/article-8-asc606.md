@@ -2,6 +2,7 @@
 title: "Revenue Recognition and ASC 606: What It Means for Your CPQ Design"
 description: "How accounting standards should shape CPQ configuration from day one—and why finance needs a seat at the table before anyone touches a configuration screen."
 date: 2026-04-21
+ogImage: /og/og-article-8.png
 tags: ["Revenue Recognition", "ASC 606", "CPQ", "Q2C", "Finance"]
 draft: false
 ---
