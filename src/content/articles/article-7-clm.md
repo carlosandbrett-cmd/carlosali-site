@@ -2,6 +2,7 @@
 title: "Contract Lifecycle Management: The Q2C Step Everyone Underbuilds"
 description: "CLM is consistently the most underfunded part of Q2C implementations. Here's what it actually needs to do and how to design it correctly in a Revenue Cloud context."
 date: 2026-04-14
+ogImage: /og/og-article-7.png
 tags: ["CLM", "Q2C", "Revenue Cloud", "Contract Management"]
 draft: false
 ---
