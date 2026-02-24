@@ -2,6 +2,7 @@
 title: "Usage-Based Billing in Revenue Cloud: Is It Ready for Enterprise?"
 description: "An honest assessment of Revenue Cloud's usage-based billing capabilities, where it works, where it falls short, and how enterprise teams should approach it."
 date: 2026-03-31
+ogImage: /og/og-article-5.png
 tags: ["Revenue Cloud", "Usage-Based Billing", "Subscription", "Q2C"]
 draft: false
 ---
