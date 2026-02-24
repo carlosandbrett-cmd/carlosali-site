@@ -2,6 +2,7 @@
 title: "ACV vs. ARR vs. TCV — Why Getting These Wrong Breaks Your CPQ Design"
 description: "Picking the wrong revenue metric when designing your CPQ system creates broken approvals, bad reporting, and misaligned compensation. Here's how to choose correctly."
 date: 2026-03-10
+ogImage: /og/og-article-2.png
 tags: ["Revenue Metrics", "CPQ", "Q2C", "ACV", "ARR"]
 draft: false
 ---
