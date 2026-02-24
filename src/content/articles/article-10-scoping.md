@@ -2,6 +2,7 @@
 title: "How to Scope a Q2C Implementation Without Getting Burned on the Estimate"
 description: "A practical guide for enterprise buyers evaluating SI proposals—how to spot hidden costs, protect yourself from scope creep, and structure a contract that keeps the project honest."
 date: 2026-05-05
+ogImage: /og/og-article-10.png
 tags: ["Q2C", "Implementation", "Scoping", "CPQ", "Vendor Management"]
 draft: false
 ---
