@@ -2,6 +2,7 @@
 title: "Why Your CRM-to-ERP Integration Is the Real Quote-to-Cash Problem"
 description: "Most Q2C implementations focus heavily on CPQ but the real complexity—and the real risk—is the handoff from Salesforce to your ERP. Here's what you need to know."
 date: 2026-04-07
+ogImage: /og/og-article-6.png
 tags: ["Q2C", "ERP Integration", "Revenue Cloud", "Salesforce"]
 draft: false
 ---
