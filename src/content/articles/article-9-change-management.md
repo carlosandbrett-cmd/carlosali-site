@@ -2,6 +2,7 @@
 title: "Change Management in Q2C Implementations: Why the Tech Is Never the Hard Part"
 description: "Most Q2C failures are people problems, not technology problems. Here's how to handle the organizational side of a Revenue Cloud implementation."
 date: 2026-04-28
+ogImage: /og/og-article-9.png
 tags: ["Change Management", "Q2C", "Implementation", "Revenue Cloud"]
 draft: false
 ---
