@@ -2,6 +2,7 @@
 title: "How to Design Your Quote-to-Cash Process Before You Touch a Single System"
 description: "Most Q2C implementations fail because they start with the tool, not the process. Here's the process design framework that should come first."
 date: 2026-03-24
+ogImage: /og/og-article-4.png
 tags: ["Q2C", "Process Design", "Revenue Cloud", "CPQ"]
 draft: false
 ---
