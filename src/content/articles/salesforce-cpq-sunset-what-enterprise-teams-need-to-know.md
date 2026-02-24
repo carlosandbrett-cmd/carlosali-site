@@ -2,6 +2,7 @@
 title: "The Salesforce CPQ Sunset: What Enterprise Teams Actually Need to Know"
 description: "Salesforce is ending sales of legacy CPQ. Here's what that means for your implementation, your roadmap, and the decisions you need to make now."
 date: 2026-02-23
+ogImage: /og/og-cpq-sunset.png
 tags: ["Salesforce CPQ", "Revenue Cloud"]
 ---
 
