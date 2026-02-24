@@ -2,7 +2,6 @@
 title: "Change Management in Q2C Implementations: Why the Tech Is Never the Hard Part"
 description: "Most Q2C failures are people problems, not technology problems. Here's how to handle the organizational side of a Revenue Cloud implementation."
 date: 2026-04-28
-ogImage: /og/og-article-9.png
 tags: ["Change Management", "Q2C", "Implementation", "Revenue Cloud"]
 draft: false
 ---
@@ -19,7 +18,7 @@ This is something SIs consistently underestimate. You can have a perfect Revenue
 
 Q2C touches almost every function in an organization. It rewrites how revenue gets recognized. It changes how sales creates and manages quotes. It dictates how orders flow through operations. It determines when and how finance recognizes revenue and closes the books.
 
-This breadth of impact is why change management is so critical — and why it's consistently underestimated. Most implementations treat it as a side activity: a few training sessions before launch, a user guide, maybe a center of excellence to handle post-launch questions. The real work of getting people to change behavior gets deferred until after go-live. By then, you're fighting adoption problems rather than preventing them.
+This breadth of impact is why change management is so critical, and why it's consistently underestimated. Most implementations treat it as a side activity: a few training sessions before launch, a user guide, maybe a center of excellence to handle post-launch questions. The real work of getting people to change behavior gets deferred until after go-live. By then, you're fighting adoption problems rather than preventing them.
 
 ## The Three Groups That Resist
 
@@ -49,7 +48,7 @@ The fix is involving operations in the design phase, showing them exactly how th
 
 **Secure executive sponsorship that's genuinely engaged.** You need a P&L owner who cares about the outcome and is willing to have hard conversations with functional leaders who aren't adopting. A sponsor who approves the budget but delegates everything else isn't enough. The sponsor needs to be visible, to publicly acknowledge the change management challenge, and to personally address resistance when it emerges.
 
-**Build a cross-functional implementation team.** Your implementation team should include a real decision-maker from sales, finance, and operations — not coordinators who have to check with their boss on every call. These people become your advocates and your problem-solvers when resistance emerges in their functions.
+**Build a cross-functional implementation team.** Your implementation team should include a real decision-maker from sales, finance, and operations, not coordinators who have to check with their boss on every call. These people become your advocates and your problem-solvers when resistance emerges in their functions.
 
 **Tell a different story to each function.** Finance wants to hear about accurate revenue recognition and faster closes. Sales wants to hear about faster quoting and cleaner deal hygiene. Operations wants to hear about fewer exceptions and less manual intervention. These are all true. Tell the right version to each audience, framed around what they care about.
 
@@ -69,3 +68,4 @@ Change management isn't exciting project work. But it's where your implementatio
 
 ---
 *I work on Revenue Cloud and Q2C implementations at Slalom. Connect with me on [LinkedIn](https://linkedin.com/in/carlosali) if you want to talk through the organizational side of your implementation.*
+

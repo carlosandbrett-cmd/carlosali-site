@@ -2,7 +2,6 @@
 title: "How to Design Your Quote-to-Cash Process Before You Touch a Single System"
 description: "Most Q2C implementations fail because they start with the tool, not the process. Here's the process design framework that should come first."
 date: 2026-03-24
-ogImage: /og/og-article-4.png
 tags: ["Q2C", "Process Design", "Revenue Cloud", "CPQ"]
 draft: false
 ---
@@ -19,7 +18,7 @@ Process design isn't a delay. It's the investment that makes everything else fas
 
 The pressure to start building is real. You've signed a contract with an SI. Executive leadership is watching. The board wants to see progress. "We're in design" doesn't feel like progress. "We're building" does.
 
-But there's a difference between visible activity and productive activity. Configuration that's built on unvalidated assumptions isn't progress — it's debt. You'll pay it back later, with interest, in the form of rework, re-scoping, and the particularly painful process of convincing an implementation team to undo work they're proud of.
+But there's a difference between visible activity and productive activity. Configuration that's built on unvalidated assumptions isn't progress. It's debt. You'll pay it back later, with interest, in the form of rework, re-scoping, and the particularly painful process of convincing an implementation team to undo work they're proud of.
 
 The other reason teams skip process design is that it requires decisions that are uncomfortable to make. Who has approval authority over a $500K deal? What's the company's standard payment term? When does a customer-requested contract change require legal review versus just a sales manager sign-off? These questions have political dimensions. People avoid them because answering them means committing to a position.
 
@@ -43,13 +42,13 @@ The right approval design balances control with velocity. You need enough oversi
 
 Pull ten recent contracts and read them. Then pull ten more from a different segment or region. Note every place they differ: payment terms, warranty provisions, service level commitments, renewal conditions, limitation of liability caps, termination rights.
 
-Every variation represents a configuration decision. Some variations are legitimate and should be supported. Others are negotiated exceptions that should require a formal approval process. And some are mistakes — inconsistencies that crept in because nobody was governing contract language.
+Every variation represents a configuration decision. Some variations are legitimate and should be supported. Others are negotiated exceptions that should require a formal approval process. And some are mistakes, inconsistencies that crept in because nobody was governing contract language.
 
 Your Revenue Cloud implementation can enforce contract consistency in a way that manual processes can't. But first you have to decide what consistency looks like. That decision has to come from legal, finance, and sales leadership jointly, and it has to happen before contracts are templated in the system.
 
 **4. What triggers billing, and what governs invoice timing?**
 
-Billing is where Q2C implementations most often surprise clients. The question seems simple: when does billing start? In practice, it's multi-dimensional. Does billing start on contract execution date, or on go-live date? What if implementation takes longer than expected — does the customer pay during implementation? How are mid-contract changes handled: prorated, effective next billing cycle, or renegotiated? What happens when a customer is late paying — does interest accrue automatically?
+Billing is where Q2C implementations most often surprise clients. The question seems simple: when does billing start? In practice, it's multi-dimensional. Does billing start on contract execution date, or on go-live date? What if implementation takes longer than expected, does the customer pay during implementation? How are mid-contract changes handled: prorated, effective next billing cycle, or renegotiated? What happens when a customer is late paying, does interest accrue automatically?
 
 Map your billing triggers for each product type and contract structure you sell. Then align with finance on how these billing events connect to invoice generation. Then align with the implementation team on how Revenue Cloud needs to be configured to produce those results. This is a three-way conversation that needs to happen before billing is configured, not after the first invoice runs incorrectly.
 
@@ -59,7 +58,7 @@ Revenue recognition under ASC 606 is not a finance problem that happens after th
 
 The key question is: when does each element of your deal satisfy its performance obligation? A software license delivered on day one recognizes revenue on day one. A support contract recognizes revenue ratably over the contract term. Implementation services recognize revenue as work is completed. A bundled deal with all three requires you to allocate transaction price across each performance obligation and recognize each independently.
 
-If your CPQ bundles these as a single line item, your finance team can't recognize revenue correctly. The solution is to design your product structure and contract architecture with revenue recognition in mind, which means finance needs to be in the design conversation from the start — not consulted after configuration is complete.
+If your CPQ bundles these as a single line item, your finance team can't recognize revenue correctly. The solution is to design your product structure and contract architecture with revenue recognition in mind, which means finance needs to be in the design conversation from the start, not consulted after configuration is complete.
 
 ## What Good Design Produces
 
@@ -67,9 +66,10 @@ When you do this process design work well, the output is a set of documented, st
 
 More importantly, your go-live is cleaner. Your users understand the system because it reflects a process they were involved in designing. Finance trusts the numbers because they understand where they come from. Operations fulfills orders correctly because the flow was designed with their constraints in mind.
 
-The implementations that skip this work launch into chaos — not catastrophic failure, but the slow-burn chaos of constant exceptions, manual interventions, and the creeping realization that the system isn't quite working the way anyone expected.
+The implementations that skip this work launch into chaos, not catastrophic failure, but the slow-burn chaos of constant exceptions, manual interventions, and the creeping realization that the system isn't quite working the way anyone expected.
 
 Four to six weeks of process design before configuration is not a delay. It's how you deliver an implementation that actually works.
 
 ---
 *I work on Revenue Cloud and Q2C implementations at Slalom. Connect with me on [LinkedIn](https://linkedin.com/in/carlosali) if you want to talk about running a process design sprint before your implementation.*
+

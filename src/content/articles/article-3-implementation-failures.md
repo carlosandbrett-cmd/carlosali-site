@@ -2,12 +2,11 @@
 title: "The 5 Most Common Revenue Cloud Implementation Failures (And How to Avoid Them)"
 description: "Most Revenue Cloud implementations that go over budget and over timeline share the same root causes. Here's what they are and how to prevent them."
 date: 2026-03-17
-ogImage: /og/og-article-3.png
 tags: ["Revenue Cloud", "Implementation", "Q2C", "Best Practices"]
 draft: false
 ---
 
-Most Revenue Cloud implementations that go over budget and over timeline aren't failing for exotic reasons. They're failing for the same five reasons, over and over. The frustrating part is that all five are preventable — if you know to look for them before the project starts.
+Most Revenue Cloud implementations that go over budget and over timeline aren't failing for exotic reasons. They're failing for the same five reasons, over and over. The frustrating part is that all five are preventable if you know to look for them before the project starts.
 
 Here's what I see go wrong, and what to do instead.
 
@@ -31,7 +30,7 @@ The typical discovery conversation goes like this. Client says: "We have product
 
 This is not unusual. It's the norm. Data quality problems are almost always worse than initial estimates suggest, because the people providing the estimates haven't actually looked at the data systematically.
 
-The consequences of underestimating data migration are timeline delays and budget overruns. Data remediation — cleaning, deduplicating, standardizing, and validating data before it can be migrated — is real work that takes real time. And it usually can't be done by the implementation team alone; it requires the client's business stakeholders to make judgment calls about which records are correct.
+The consequences of underestimating data migration are timeline delays and budget overruns. Data remediation, cleaning, deduplicating, standardizing, and validating data before it can be migrated, is real work that takes real time. And it usually can't be done by the implementation team alone; it requires the client's business stakeholders to make judgment calls about which records are correct.
 
 **What to do:** Build a formal data audit into your project plan before you set a go-live date. Have your SI inventory every data source, document data quality issues, and give you an honest assessment of remediation effort. Pad your data migration estimate by at least 50%.
 
@@ -39,7 +38,7 @@ The consequences of underestimating data migration are timeline delays and budge
 
 You can build a technically perfect Revenue Cloud implementation and still have it fail if your organization isn't ready to change how it works.
 
-Change management is the most consistently underinvested workstream in Q2C implementations. It gets a line item in the project plan — usually something like "training and adoption" — and then it gets cut when the project goes over budget on the technical work.
+Change management is the most consistently underinvested workstream in Q2C implementations. It gets a line item in the project plan, usually something like "training and adoption", and then it gets cut when the project goes over budget on the technical work.
 
 The result: you launch a new system, and your sales team keeps quoting in Excel because the new system is confusing. Your finance team overrides the revenue reports because they don't trust the numbers. Your operations team builds manual workarounds because nobody trained them on the new order flow. You've built a great system that nobody uses the way it was designed to be used.
 
@@ -61,7 +60,7 @@ Configuration should follow process design, not precede it. Process design means
 
 Not all SIs are equal, and the difference between the right and wrong partner can be the difference between a successful implementation and a failed one.
 
-The wrong SI partner usually falls into one of three categories. They're too small — they have the skills but not the capacity, and your project gets deprioritized when a bigger client demands attention. They're too large — you're a small deal to them, and you get the B-team while the proposal was made by the A-team. Or they have the wrong expertise — they're great at Salesforce Sales Cloud but have limited Revenue Cloud experience, and they're learning on your project.
+The wrong SI partner usually falls into one of three categories. They're too small: they have the skills but not the capacity, and your project gets deprioritized when a bigger client demands attention. They're too large: you're a small deal to them, and you get the B-team while the proposal was made by the A-team. Or they have the wrong expertise: they're great at Salesforce Sales Cloud but have limited Revenue Cloud experience, and they're learning on your project.
 
 There's also an incentive problem. Some SIs have financial incentives to recommend expensive solutions, custom development, or additional scope. If your SI is proposing heavy customization where configuration should suffice, or recommending add-on products that aren't necessary, ask why.
 
@@ -73,3 +72,4 @@ These five failures aren't inevitable. They're predictable, and predictable prob
 
 ---
 *I work on Revenue Cloud and Q2C implementations at Slalom. Connect with me on [LinkedIn](https://linkedin.com/in/carlosali) if you want a candid conversation about your implementation approach.*
+
