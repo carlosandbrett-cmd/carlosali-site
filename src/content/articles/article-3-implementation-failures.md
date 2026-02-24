@@ -2,6 +2,7 @@
 title: "The 5 Most Common Revenue Cloud Implementation Failures (And How to Avoid Them)"
 description: "Most Revenue Cloud implementations that go over budget and over timeline share the same root causes. Here's what they are and how to prevent them."
 date: 2026-03-17
+ogImage: /og/og-article-3.png
 tags: ["Revenue Cloud", "Implementation", "Q2C", "Best Practices"]
 draft: false
 ---
