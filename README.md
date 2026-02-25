@@ -56,3 +56,4 @@ In GoDaddy DNS settings for carlosali.com:
 After DNS propagates (~15 min), Netlify auto-provisions SSL.
 
 Then cancel your "Affordable Web Hosting" plan in GoDaddy.
+\n# Test commit by Claude - Wed Feb 25 03:23:22 UTC 2026
