@@ -64,7 +64,7 @@ The wrong SI partner usually falls into one of three categories. They're too sma
 
 There's also an incentive problem. Some SIs have financial incentives to recommend expensive solutions, custom development, or additional scope. If your SI is proposing heavy customization where configuration should suffice, or recommending add-on products that aren't necessary, ask why.
 
-**What to do:** Ask for specific Revenue Cloud case studies, not general Salesforce experience. Make sure they have people certified on Revenue Cloud as lots of partners have ignored this. Make sure they have a bunch of domain expertise in the company since your project team will need friends and coworkers to reach out to when things inevitable go wrong or get complicated. 
+**What to do:** Ask for specific Revenue Cloud case studies, not general Salesforce experience. Make sure they have people certified on Revenue Cloud as lots of partners have ignored this. Make sure they have a bunch of domain expertise in the company since your project team will need friends and coworkers to reach out to when things inevitabley go wrong or get complicated. 
 
 ---
 
