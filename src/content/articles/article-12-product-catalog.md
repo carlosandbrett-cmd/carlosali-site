@@ -1,5 +1,5 @@
 ---
-title: "Your Product Catalog Is the Foundation of Your CPQ Implementation. Most Teams Get It Wrong."
+title: "Your Product Catalog Is the Foundation of Your CPQ Implementation."
 description: "SKU proliferation, inconsistent naming, and poorly structured bundles will break your CPQ before you configure a single pricing rule. Here's how to get the catalog right before you start."
 date: 2026-05-26
 tags: ["Revenue Cloud", "CPQ", "Q2C", "Product Catalog", "Implementation"]
