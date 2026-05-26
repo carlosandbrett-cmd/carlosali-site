@@ -1,5 +1,5 @@
 ---
-title: "Your Product Catalog Is the Foundation of Your CPQ Implementation. Most Teams Get It Wrong."
+title: "Your Product Catalog Is the Foundation of Your CPQ Implementation. "
 description: "Teams design their Revenue Cloud catalog for the future and ignore what's already in the field. Start from your actual customer orders and install base, or you'll build a system that can't support the business on day one."
 date: 2026-05-26
 tags: ["Revenue Cloud", "CPQ", "Q2C", "Product Catalog", "Implementation"]
